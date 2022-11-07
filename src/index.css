@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: lightgray;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.wrap {
+  position: relative;
+  width: 368px;
+  height: 219px;
+  background: #ffffff;
+  border-radius: 6px;
+  top: 109px;
+  left: 184px;
+}
+.mainTitle {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+  height: 100%;
+  width: 90%;
+}
+.wrapTitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.inBlock {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 16px;
+  height: 86%;
+}
+input {
+  box-sizing: border-box;
+  width: 336px;
+  height: 36px;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 6px;
+  margin-bottom: 8px;
+}
+.btn {
+  width: 336px;
+  height: 41px;
+  background: #ac6ace;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 8px;
+}
+.btnText {
+  width: 72px;
+  height: 17px;
+
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+.title {
+  width: 157px;
+  height: 17px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+.inform {
+  width: 222px;
+  height: 17px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #666666;
+}
+.count {
+  width: 212px;
+  height: 14px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  color: #999999;
+}
